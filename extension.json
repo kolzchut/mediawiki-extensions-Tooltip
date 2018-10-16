@@ -1,0 +1,30 @@
+{
+	"name": "WikiRights Tooltip",
+	"version": "1.1.0",
+	"author": "Itsick Krumbein - Openfox - (openfox.co.il)",
+	"url": "https://github.com/kolzchut/mediawiki-extensions-Tooltip",
+	"descriptionmsg": "ext-tooltip-desc",
+	"license-name": "GPL-3.0",
+	"type": "parserhook",
+	"MessagesDirs": {
+		"Tooltip": [
+			"i18n"
+		]
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "WikiRights/Tooltip/modules"
+	},
+	"ResourceModules": {
+		"ext.wr.Tooltip.js": {
+			"scripts": [
+				"vanilla-js-tooltip.min.js"
+			],
+			"styles" : [
+				"vanilla-js-tooltip.css"
+			],
+			"position": "bottom"
+		}
+	},
+	"manifest_version": 1
+}
